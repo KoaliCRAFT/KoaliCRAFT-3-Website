@@ -12,6 +12,7 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
 .box-middle
 {
@@ -133,7 +134,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: -640px;
+  margin-left: 880px;
   margin-top: 57px;
 }
 .hintergrund
