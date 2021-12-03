@@ -18,7 +18,7 @@
   background: cornsilk;
   box-shadow: 0 30px 60px rgba(0, 0, 0, .2);
   width: 70%;
-  height: 180px;
+  height: 10%;
   border-radius: 25px;
   position: fixed;
   left: 50%;
@@ -28,6 +28,24 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.header{
+  background: cornsilk;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, .2);
+  width: 70%;
+  height: 10%;
+  border-radius: 25px;
+  position: fixed;
+  left: 50%;
+  top: 20px;
+  transform: translate(-50%, 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title{
+  color: rgb(58, 58, 58);
 }
 .box-middle
 {
