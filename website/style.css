@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=roboto!:300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *
 {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 .box {
   margin: 0;
@@ -30,7 +30,7 @@
   flex-direction: column;
 }
 .header{
-  background: cornsilk;
+  background: rgb(255, 255, 255);
   box-shadow: 0 30px 60px rgba(0, 0, 0, .2);
   width: 70%;
   height: 10%;
@@ -46,10 +46,12 @@
 }
 .title{
   color: rgb(58, 58, 58);
+  font-size:60px;
+  font-weight: 300;
 }
 .box-middle
 {
-  background: cornsilk;
+  background: rgb(255, 255, 255);
   box-shadow: 0 30px 60px rgba(0, 0, 0, .2);
   width: 400px;
   height: 540px;
@@ -86,7 +88,7 @@
 .box-middle .percent svg circle:nth-child(1)
 {
   stroke-dashoffset: 0;
-  stroke: #e4dfcc
+  stroke: #dddddd
 }
 .box-middle .percent svg circle:nth-child(2)
 {
@@ -136,7 +138,7 @@
 }
 .box-left
 {
-  background: cornsilk;
+  background: rgb(255, 255, 255);
   box-shadow: 0 30px 60px rgba(0, 0, 0, .2);
   width: 400px;
   height: 400px;
@@ -158,7 +160,7 @@
 }
 .box-right
 {
-  background: cornsilk;
+  background: rgb(255, 255, 255);
   box-shadow: 0 30px 60px rgba(0, 0, 0, .2);
   width: 400px;
   height: 400px;
