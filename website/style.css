@@ -15,7 +15,7 @@
   z-index: 1;
 }
 .team{
-  background: cornsilk;
+  background: rgb(255, 255, 255);
   box-shadow: 0 30px 60px rgba(0, 0, 0, .2);
   width: 70%;
   height: 10%;
@@ -40,7 +40,7 @@
   top: 20px;
   transform: translate(-50%, 0%);
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
   flex-direction: column;
 }
@@ -48,6 +48,10 @@
   color: rgb(58, 58, 58);
   font-size:60px;
   font-weight: 300;
+}
+.worldicon{
+  width: 100px;
+  height: 100px;
 }
 .box-middle
 {
